@@ -1,0 +1,14 @@
+<p>primeiro-componente works!</p>
+
+<p>{{ teste + ' ' + teste2 }}</p>
+
+<p>{{ 2+2 }}</p>
+
+<p>{{teste3()}}</p>
+
+
+<p>{{cliente.id}} {{cliente.nome}}</p>
+
+<ul *ngFor="let item of clientes">
+    <li *ngIf="item.ativo">{{item.id}} - {{item.nome}}</li>
+</ul>
